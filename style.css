@@ -102,10 +102,10 @@ button:hover{
 }
 .heart-container:before{
     content: "";
-    height: 240px;
+    height: 250px;
     width: 3px;
     background-color: #cb5382;
     position: absolute;
-    left: 0px;
-    top: -100px;
+    left: -30px;
+    top: 70px;
 }
