@@ -106,6 +106,6 @@ button:hover{
     width: 3px;
     background-color: #cb5382;
     position: absolute;
-    left: -40px;
-    top: 65px;
+    left: 0px;
+    top: -100px;
 }
