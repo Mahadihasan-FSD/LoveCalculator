@@ -1,0 +1,111 @@
+body{
+    height: 100vh;
+    background-color: #243750;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.love-calculator-container{
+    padding: 25px;
+    box-shadow: 1px 0px 13px 6px rgba(255, 255, 255, 16%);
+    background-color: #122033;
+    border-radius: 10px;
+    min-width: 750px;
+    color: white;
+    text-align: center;
+}
+.love-calculator{
+    display: flex;
+    flex-direction: column;
+    gap: 22px;
+}
+input {
+  padding:15px 10px;
+  border: 2px solid #000;
+  border-radius: 6px;
+  color: #cb5382;
+  font-weight: bold;
+  font-size: 18px;
+  transition: all 0.5s ease;
+}
+input:focus{
+    border: 2px solid #cb5382;
+    outline: none;
+}
+button{
+    padding: 15px;
+    border-radius: 10px;
+    font-weight: bold;
+    font-size: 20px;
+    background-color: #cb5382;
+    color: white;
+    cursor: pointer;
+    transition: all 0.5s ease;
+}
+button:hover{
+    background-color: #cb5382;
+}
+
+
+
+
+/* result */
+
+.result-container{
+    display: none;
+}
+
+
+
+.result-percentage-box-heart{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+}
+.result-name{
+    color: #cb5382;
+    font-size: 30px;
+    font-weight: bold;
+}
+.result-message{
+    max-width: 400px;
+    margin: auto;
+    font-size: 25px;
+}
+.heart-container img{
+    height: 400px;
+    width: auto;
+}
+.result-presentage-box{
+    background-color: #cb5382;
+    height: 220px;
+    width: 220px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    font-size: 38px;
+}
+.result-percentage-box-wrapper{
+    background: conic-gradient(#fb93bb 0% 45%, #435874 45% 100%);
+    height: 220px;
+    width: 220px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    padding: 10px;
+}
+.heart-container{
+    position: relative;
+}
+.heart-container:before{
+    content: "";
+    height: 240px;
+    width: 3px;
+    background-color: #cb5382;
+    position: absolute;
+    left: -40px;
+    top: 65px;
+}
